@@ -15,18 +15,15 @@
   );
   //dump($footerMenu);
 
-
   ?>
   <nav>
     <ul>
       <?php foreach ($footerMenu as $item) : ?>
-
         <li>
           <a href="<?= $item->url ?>">
             <?= $item->title ?>
           </a>
         </li>
-
       <?php endforeach; ?>
     </ul>
   </nav>
