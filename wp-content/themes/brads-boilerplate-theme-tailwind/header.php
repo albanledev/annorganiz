@@ -7,23 +7,30 @@
   <?php wp_head(); ?>
 </head>
 
-<body class='bg-red-500' <?php body_class(); ?>>
+<body class='' <?php body_class(); ?>>
   <?php
   // wp_nav_menu();
-  $footerMenu = wp_get_nav_menu_items(
-    get_nav_menu_locations('footer-social')['footer-social']
+
+  $headerMenu = wp_get_nav_menu_items(
+      get_nav_menu_locations('header')['header']
   );
   //dump($footerMenu);
-
   ?>
-  <nav>
-    <ul>
-      <?php foreach ($footerMenu as $item) : ?>
-        <li>
+  
+  
+  <nav class="flex justify-between px-20">
+      <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="" class="w-40 h-24 bg-yellow-300">
+    <ul class="flex justify-end gap-5">
+      <?php foreach ($headerMenu as $item) :?>
+        <li class="">
           <a href="<?= $item->url ?>">
             <?= $item->title ?>
           </a>
         </li>
       <?php endforeach; ?>
     </ul>
+
+
+
   </nav>
+

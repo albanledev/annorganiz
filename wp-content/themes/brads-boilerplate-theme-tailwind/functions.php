@@ -18,5 +18,5 @@ add_action('after_setup_theme', 'boilerplate_add_support');
 
 register_nav_menus(array(
   'footer-social' => 'Footer - Menu réseaux sociaux',
-  'menu-admin' => 'Menu reservés aux admins du site',
+  'header' => 'Menu reservés aux admins du site',
 ));
