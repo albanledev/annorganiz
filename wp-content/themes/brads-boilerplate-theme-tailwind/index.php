@@ -15,7 +15,7 @@ get_header(); ?>
 
         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
-        <div class='bg-gray-500 w-full h-[50px] p-5'>
+        <div class='bg-green-700 w-full h-[50px] p-5'>
           <div class='bg-white w-[80%] h-10 px-4 py-4 rounded-[20px]'>
             <div>
               <div class="bg-gray-800 w-64 h-80"></div>
