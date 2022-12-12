@@ -9,10 +9,6 @@
 
 <body <?php body_class();
       wp_nav_menu();
-      ?>>
+      echo ""
 
-  <div class="bg-green-600">
-    <div class="max-w-4xl mx-auto mb-5 px-4">
-      <h1 class="text-3xl py-10"><a href="<?php echo get_home_url(); ?>" class="hover:text-blue-500">Welcome To Our Header!</a></h1>
-    </div>
-  </div>
+      ?>
