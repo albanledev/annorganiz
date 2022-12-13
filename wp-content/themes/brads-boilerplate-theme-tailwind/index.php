@@ -46,7 +46,7 @@
 
 
 <?php
-
+      the_content();
 ?>
 </div>
 <?php }

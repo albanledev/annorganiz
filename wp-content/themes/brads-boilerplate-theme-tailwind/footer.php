@@ -1,5 +1,3 @@
-
-
 <?php
 //wp_footer();
 $footerMenu = wp_get_nav_menu_items(
@@ -8,7 +6,7 @@ $footerMenu = wp_get_nav_menu_items(
 ?>
 
 <nav class="flex justify-between px-20 py-20 border-solid border-2">
-<img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="logo">
+    <!-- <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="logo"> -->
     <div class="uppercase text-center">
         <p>Annorganiz@gmail.com</p>
         <p>Téléphone: 0612132432</p>
@@ -22,7 +20,8 @@ $footerMenu = wp_get_nav_menu_items(
     </div>
 </nav>
 
-
+<?php wp_footer(); ?>
 
 </body>
+
 </html>
