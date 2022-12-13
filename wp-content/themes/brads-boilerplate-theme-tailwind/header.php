@@ -19,7 +19,7 @@
   
   
   <nav class="flex justify-between px-20">
-      <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="" class="w-40 h-24 bg-yellow-300">
+      <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="logo" >
     <ul class="flex justify-end gap-5">
       <?php foreach ($headerMenu as $item) :?>
         <li class="">
