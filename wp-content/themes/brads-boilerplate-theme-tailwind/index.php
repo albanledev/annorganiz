@@ -1,37 +1,16 @@
-<<<<<<< HEAD
-<?php get_header(); ?>
-
-
-
-<?php get_footer(); ?>
-=======
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 </style>
 
-<?php
-
-get_header(); ?>
-
-
-
+<?php get_header(); ?>
 
 <div class="prose max-w-full">
   <?php if (have_posts()) {
     while (have_posts()) {
       the_post(); ?>
       <div>
-
-
-
-
-
         <!-- <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> -->
-
-
         <!-- <h1>test</h1> -->
-
-
         <div class="w-full p-4 bg-[#723EA5] flex justify-evenly m-auto flex-wrap mt-6">
           <img src="<?php echo get_template_directory_uri() ?>./img/anne.png" alt="" class="w-[200px] h-[200px]">
           <p class="text-[16px] md:text-[24px] text-white md:w-[50%] w-[80%]">Bienvenue chez moi, je m’appelle Anne. Professionnelle de l’Organisation, je vous accueille avec plaisir.<br><br>
@@ -75,9 +54,4 @@ get_header(); ?>
 </div>
 
 
-
-
-
-
 <?php get_footer();
->>>>>>> b3b6727ac915e893a6666714b52805c3fb1e33d0
