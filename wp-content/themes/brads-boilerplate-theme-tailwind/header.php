@@ -12,18 +12,29 @@
   // wp_nav_menu();
 
   $headerMenu = wp_get_nav_menu_items(
-      get_nav_menu_locations('header')['header']
+    get_nav_menu_locations('header')['header']
   );
   //dump($footerMenu);
   ?>
-  
-  
+
+
   <nav class="flex justify-between px-20">
+<<<<<<< HEAD
       <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="logo" >
     <ul class="flex justify-end gap-5">
       <?php foreach ($headerMenu as $item) :?>
         <li class="">
           <a href="<?= $item->url ?>">
+=======
+    <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="ez" class="h-auto">
+    <img src="<?php echo get_template_directory_uri() ?>./img/burger.png" alt="ezez" class="lg:hidden h-4 mt-9">
+
+    <ul class="lg:flex justify-end gap-[3vw] py-7 hidden lg:block">
+
+      <?php foreach ($headerMenu as $item) : ?>
+        <li class=" font-['Poppins'] text-[#3B0273] ">
+          <a href=" <?= $item->url ?>">
+>>>>>>> b3b6727ac915e893a6666714b52805c3fb1e33d0
             <?= $item->title ?>
           </a>
         </li>
@@ -33,4 +44,3 @@
 
 
   </nav>
-
