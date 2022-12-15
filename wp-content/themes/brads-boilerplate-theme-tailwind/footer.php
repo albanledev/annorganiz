@@ -24,21 +24,21 @@ $footerMenu = wp_get_nav_menu_items(
 
 </div>
 
-<div class="flex text-center text-xs" >
-    <div class="flex text-center text-xs ">
+<div class="" >
+    <div class="flex text-center text-xs text-footer-purple ">
         <p> COPYRIGHT 2019 2022 - ANNORGANIZ </p>
         <p> | </p>
-        <a href=""> ACCUEIL </a>
+        <a href="#"> ACCUEIL </a>
         <p> | </p>
-        <a href=""> CONTACT </a>
+        <a href="#"> CONTACT </a>
         <p> | </p>
-        <a href=""> A PROPOS </a>
+        <a href="#"> A PROPOS </a>
         <p> | </p>
-        <a href=""> PRESTATION </a>
+        <a href="#"> PRESTATION </a>
         <p> | </p>
-        <a href=""> MENTION LEGALE </a>
+        <a href="#"> MENTION LEGALE </a>
         <p> | </p>
-        <a href=""> BLOG </a>
+        <a href="#"> BLOG </a>
     </div>
 
 </div>

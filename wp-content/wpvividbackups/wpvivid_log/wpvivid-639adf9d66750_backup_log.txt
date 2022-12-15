@@ -1,0 +1,80 @@
+Log created: 2022-12-15 09:49:33
+Type: backup
+[2022-12-15 09:49:46][notice]Start backing up.
+[2022-12-15 09:49:46][notice]server info fcgi:Off max execution time: 900 wp version:6.1.1 php version:8.1.11 db version:8.0.30 php ini:safe_mode: memory_limit:256M memory_get_usage:44,91 Mo memory_get_peak_usage:45,66 Mo extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-12-15 09:49:46][notice]Prepare to backup backup_db files.
+[2022-12-15 09:49:46][notice]Start exporting database.
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_commentmeta
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_comments
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_links
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_options
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_postmeta
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_posts
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_term_relationships
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_term_taxonomy
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_termmeta
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_terms
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_usermeta
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_users
+[2022-12-15 09:49:46][notice]Preparing to dump table dpzigls5oo_wpvivid_options
+[2022-12-15 09:49:46][notice]Exporting database finished.
+[2022-12-15 09:49:46][notice]Start compressing backup_db
+[2022-12-15 09:49:46][notice]Prepare to zip files. file: localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_db.zip
+[2022-12-15 09:49:46][notice]Adding zip files completed.localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_db.zip, filesize: 697,75 Ko
+[2022-12-15 09:49:46][notice]Compressing backup_db completed
+[2022-12-15 09:49:46][notice]Backing up backup_db completed.
+[2022-12-15 09:50:12][notice]Prepare to backup backup_themes files.
+[2022-12-15 09:50:12][notice]File number: 46008
+[2022-12-15 09:50:12][notice]Start compressing backup_themes
+[2022-12-15 09:52:24][notice]Prepare to zip files. file: localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_themes.part001.zip
+[2022-12-15 09:52:26][notice]Adding zip files completed.localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_themes.part001.zip, filesize: 200,36 Mo
+[2022-12-15 09:52:26][notice]Prepare to zip files. file: localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_themes.part002.zip
+[2022-12-15 09:53:05][notice]Adding zip files completed.localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_themes.part002.zip, filesize: 87,33 Mo
+[2022-12-15 09:53:05][notice]Compressing backup_themes completed
+[2022-12-15 09:53:05][notice]Backing up backup_themes completed.
+[2022-12-15 09:53:06][notice]Prepare to backup backup_plugin files.
+[2022-12-15 09:53:06][notice]File number: 1668
+[2022-12-15 09:53:06][notice]Start compressing backup_plugin
+[2022-12-15 09:53:07][notice]Prepare to zip files. file: localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_plugin.zip
+[2022-12-15 09:53:09][notice]Adding zip files completed.localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_plugin.zip, filesize: 13,27 Mo
+[2022-12-15 09:53:09][notice]Compressing backup_plugin completed
+[2022-12-15 09:53:09][notice]Backing up backup_plugin completed.
+[2022-12-15 09:53:09][notice]Prepare to backup backup_uploads files.
+[2022-12-15 09:53:09][notice]File number: 31
+[2022-12-15 09:53:09][notice]Start compressing backup_uploads
+[2022-12-15 09:53:09][notice]Prepare to zip files. file: localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_uploads.zip
+[2022-12-15 09:53:09][notice]Adding zip files completed.localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_uploads.zip, filesize: 2,56 Mo
+[2022-12-15 09:53:09][notice]Compressing backup_uploads completed
+[2022-12-15 09:53:09][notice]Backing up backup_uploads completed.
+[2022-12-15 09:53:09][notice]Prepare to backup backup_content files.
+[2022-12-15 09:53:09][notice]File number: 85
+[2022-12-15 09:53:09][notice]Start compressing backup_content
+[2022-12-15 09:53:09][notice]Prepare to zip files. file: localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_content.zip
+[2022-12-15 09:53:09][notice]Adding zip files completed.localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_content.zip, filesize: 3,35 Mo
+[2022-12-15 09:53:09][notice]Compressing backup_content completed
+[2022-12-15 09:53:09][notice]Backing up backup_content completed.
+[2022-12-15 09:53:10][notice]Prepare to backup backup_core files.
+[2022-12-15 09:53:10][notice]File number: 2527
+[2022-12-15 09:53:10][notice]Start compressing backup_core
+[2022-12-15 09:53:13][notice]Prepare to zip files. file: localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_core.zip
+[2022-12-15 09:53:15][notice]Adding zip files completed.localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_core.zip, filesize: 50,98 Mo
+[2022-12-15 09:53:15][notice]Compressing backup_core completed
+[2022-12-15 09:53:15][notice]Backing up backup_core completed.
+[2022-12-15 09:53:15][notice]Prepare to backup backup_merge files.
+[2022-12-15 09:53:15][notice]File number: 7
+[2022-12-15 09:53:15][notice]Start compressing backup_merge
+[2022-12-15 09:53:16][notice]Prepare to zip files. file: localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_all.part001.zip
+[2022-12-15 09:53:24][notice]Adding zip files completed.localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_all.part001.zip, filesize: 51,93 Mo
+[2022-12-15 09:53:24][notice]Cleaned up file, filename: C:\laragon\www\annorganiz/wp-content\wpvividbackups\localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_themes.part001.zip
+[2022-12-15 09:53:24][notice]Prepare to zip files. file: localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_all.part002.zip
+[2022-12-15 09:53:29][notice]Adding zip files completed.localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_all.part002.zip, filesize: 50,77 Mo
+[2022-12-15 09:53:29][notice]Cleaned up file, filename: C:\laragon\www\annorganiz/wp-content\wpvividbackups\localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_themes.part002.zip
+[2022-12-15 09:53:29][notice]Cleaned up file, filename: C:\laragon\www\annorganiz/wp-content\wpvividbackups\localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_core.zip
+[2022-12-15 09:53:29][notice]Cleaned up file, filename: C:\laragon\www\annorganiz/wp-content\wpvividbackups\localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_plugin.zip
+[2022-12-15 09:53:29][notice]Cleaned up file, filename: C:\laragon\www\annorganiz/wp-content\wpvividbackups\localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_content.zip
+[2022-12-15 09:53:29][notice]Cleaned up file, filename: C:\laragon\www\annorganiz/wp-content\wpvividbackups\localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_uploads.zip
+[2022-12-15 09:53:29][notice]Cleaned up file, filename: C:\laragon\www\annorganiz/wp-content\wpvividbackups\localhost_annorganiz_wpvivid-639adf9d66750_2022-12-15-09-49_backup_db.zip
+[2022-12-15 09:53:29][notice]Compressing backup_merge completed
+[2022-12-15 09:53:29][notice]Backing up backup_merge completed.
+[2022-12-15 09:53:29][notice]Backup completed.
+[2022-12-15 09:53:29][notice]Backup succeeded.
